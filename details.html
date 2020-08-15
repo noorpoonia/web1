@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>My Details</title>
+</head>
+<body>
+  <h1>Contact Details</h1>
+  <ol>
+    <li>Email : pooniaarjun@gmail.com</li>
+    <li>Phone No. : 9834567634</li>
+  </ol>
+  <hr>
+  <form action="mailto:poonianoor31@gmail.com" method="post" enctype="text/plain">
+    <label>Your Name : </label>
+    <input type="text" name="youName" value=""><br><br>
+    <label>Your Email : </label>
+    <input type="email" name="yourEmail" value=""><br><br>
+    <label>Your message : </label><br>
+    <textarea name="yourmsg" rows="10" cols="30"></textarea><br><br>
+    <fieldset>
+      <legend>Choose your favorite progrsmming language</legend>
+      <input type="radio" id="Python" name="lang">
+      <label for="kraken">Python</label><br />
+      <input type="radio" id="C" name="lang">
+      <label for="sasquatch">C</label><br />
+      <input type="radio" id="Java" name="lang">
+      <label for="mothman">Java</label>
+    </fieldset><br>
+    <label for="name">Enter your birth date:</label>
+    <input type="date" id="name" name="bdate"><br><br>
+    <label for="pet-select">Choose a flavour:</label>
+    <select id="ice-cream">
+      <option value="">--Please choose a flavour--</option>
+      <option value="Chocolate">Chocolate</option>
+      <option value="Vanilla">Vanilla</option>
+      <option value="Strawberry">Strawberry</option>
+      <option value="Butter-Scotch">Butter Scotch</option>
+    </select><br><br>
+    <details>
+      <summary>Important Thing</summary>
+      Do suggest some changes
+    </details>
+    <br>
+    <label for="name">Rate my page:</label>
+    <input type="range" id="name" name="rating" min="0" max="10"><br><br>
+    <input type="reset" id="name" name="name"><br><br>
+    <input type="submit" name="">
+  </form>
+</body>
+</html>
